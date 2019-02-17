@@ -1,0 +1,20 @@
+{
+    "name": "Bootcamp Spot Percentage Display",
+    "version": "1.0.0",
+    "author": "Dominic Smith",
+    "description": "Adds percentages to all of your academic grades within bootcamp spot.\nSource Code: https://github.com/CodingDom/Bootcampspot-Grades",
+    "permissions": ["tabs", "*://*.bootcampspot.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["*://*.bootcampspot.com/*"],
+        "js": ["percentage.js"]
+      }
+    ],
+    "browser_action": {
+        "default_icon": "icon48.png"
+    },
+    "icons" : {
+        "48":"icon48.png"
+    },
+    "manifest_version" : 2
+}
