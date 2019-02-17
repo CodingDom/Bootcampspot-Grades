@@ -22,12 +22,15 @@
     
     let totalGradeValue = 0;
     let amountOfAssignments = 0;
-    
+    let debounce = false;
+
     function loadGradebook() {
+        if (debounce) return debounce;
         let waitForGrades = setInterval(function() {
             if (document.querySelectorAll("tbody > .row").length > 20) {
                 clearInterval(waitForGrades);
                 showPercentages();
+                debounce = false;
             };
         },50);
     };
@@ -56,7 +59,12 @@
         });
     };
     
-    document.querySelector("main").addEventListener('DOMNodeInserted', function(e) {
+    if (location.pathname == "/grades") {
+        console.log("Started within gradebook");
+        loadGradebook();
+    };
+
+    document.addEventListener('DOMNodeInserted', function(e) {
         if (e.target.getAttribute && e.target.getAttribute("class") == "student-grade-info") {
             loadGradebook();
         };
