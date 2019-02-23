@@ -4,4 +4,4 @@
 
 ## Preview
 
-[<img src="https://lh3.googleusercontent.com/ZeN8hUMIEQK9EJPBkUjN43ELpAnZ3_itJXlkbUxJtMeTiiBmzhYtksaCP4iYpJip0L2Dcx5fNg=w640-h400-e365" width="100%">](https://chrome.google.com/webstore/detail/bootcamp-spot-percentage/jnnigbojajnkddjdchbhgiabafpdggah)
+[<img src="https://lh3.googleusercontent.com/xmMoqNtEVyKK333EHRPjkEwgxeeZuxs84IkAhdHd9OJ3ZtcQS9BOycBFbz0IppiC3E8cA2u3=w640-h400-e365" width="100%">](https://chrome.google.com/webstore/detail/bootcamp-spot-percentage/jnnigbojajnkddjdchbhgiabafpdggah)
